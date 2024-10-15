@@ -1,0 +1,368 @@
+*{
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    /* box-sizing: border-box; */
+}
+.navbar{
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    position: relative;
+}
+.logo{
+    margin: 1px 6px;
+}
+.logo img{
+    margin: 3px 20px;
+}
+ul{
+    display: flex;
+   
+
+}
+ul  li {
+    font-size: 1.4rem;
+    list-style:none;
+    margin: 17px 8px;
+   
+    font-family: 'Caprasimo', cursive;
+/* font-family: 'Ubuntu', sans-serif; */
+}
+ul li a{
+display: block;
+text-decoration: none;
+color: rgb(249, 246, 246);
+padding: 4px 16px;
+
+border-radius: 9px;
+
+
+}
+ul li a:hover{
+background-color: aliceblue;
+color: black;
+}
+.navbar::before{
+background-color: black;
+content: "";
+height: 100%;
+width: 100%;
+z-index: -1;
+position: absolute;
+top: 0px;
+left: 0px;
+opacity: 0.4;
+
+
+}
+.navbar{
+position: relative;
+top: 0px;
+}
+.home{
+display: flex;
+flex-direction: column;
+padding: 3px 300px;
+justify-content: center;
+align-items: center;
+/* height: 550px; */
+height: 90vh;
+width: 100vh;
+
+}
+.home::before{
+background: url('wallpaperflare.com_wallpaper (5).jpg') no-repeat center center/cover;
+content: "";
+height: 100%;
+width: 100%;
+z-index: -1;
+position: absolute;
+top: 0px;
+left: 0px;
+opacity: 0.9;
+
+}
+.h-primary{
+padding: 14px;
+font-size: 3rem;
+
+}
+.h-primary:hover{
+color: rgb(176, 2, 118);
+}
+
+
+.h-secoundary{
+font-size: 2.0rem;
+padding: 12px;
+color: black;
+font-family: 'Ubuntu', sans-serif;
+}
+
+h1{
+color: rgb(231, 214, 235);
+justify-content: center;
+align-items: center;
+font-family: 'Lobster', cursive;
+width: fit-content;
+display: block;
+margin: auto;
+text-align: center;
+}
+
+.home p{
+color: rgb(246, 251, 255);
+text-align: center;
+font-size: 1.2rem;
+font-family: 'Pacifico', cursive;
+
+}
+.home p:hover{
+color: rgb(207, 118, 35);
+}
+.btn{
+background-color: rgb(50, 183, 154);
+color: aliceblue;
+border: 2px solid white;
+padding: 8px 20px;
+/* margin: 10px; */
+font-size: 1rem;
+border-radius: 15px;
+display:block;
+margin: auto;
+margin-top: 12px;
+
+}
+.btn:hover{
+background-color: blueviolet;
+color: black;
+border: 2px solid black;
+}
+
+.h-primary1{
+color: black;
+/* text-align: center; */
+padding: 10px 68px;
+/* margin: 5px; */
+font-size: 2.9rem;
+border: 2px solid red;
+width: fit-content;
+display:block;
+margin: auto;
+border-radius: 15px;
+
+background-color: rgb(239, 231, 152);
+font-family: 'Lobster', cursive;
+font-family: 'Ubuntu', sans-serif;
+}
+.h-primary1:hover{
+background-color: beige;
+color: rgb(38, 118, 118);
+border: 2px solid blue;
+}
+
+.center{
+text-align: center;
+
+}
+
+.box{
+border: 2px solid brown;
+margin: 10px;
+padding: 15px 13px;
+border-radius: 15px;
+background-color: rgb(245, 246, 241);
+
+}
+.box:hover{
+background-color: rgb(243, 215, 181);
+border: 2px solid rgb(237, 7, 187);
+}
+.box img{
+height: 180px;
+display: block;
+margin: auto;
+border-radius: 9px;
+}
+.box img:hover{
+border: 1px solid rgb(136, 28, 213);
+}
+
+#services{
+display: flex;
+
+}
+.text{
+font-size: 1.1rem;
+}
+
+.text:hover{
+color: rgb(107, 28, 28);
+}
+.box1 img{
+height: 140px;
+padding: 0px 0px;
+/* border: 2px solid red; */
+margin: 0.8rem; 
+border-radius:23px ;
+border: 2px solid white;
+display: inline;
+}
+.h1-partner{
+text-align: center;
+justify-content: center;
+align-items: center;
+color: black;
+/* border: 2px solid orange; */
+padding: 17px 60px;
+width: fit-content;
+margin: auto;
+display: block;
+margin-top: 15px;
+font-size: 2.5rem;
+font-family: 'Baloo Bhai 2', cursive;
+font-family: 'Roboto Mono', monospace;
+}
+.h1-partner:hover{
+border: 2px solid orange;
+/* background-color: rgb(78, 246, 128); */
+color: azure;
+border-radius: 15px;
+}
+.partner-box-center{
+position: absolute;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: auto;
+width: 100%;
+}
+.partner-1::before{
+content: "";
+background: url('swiggy_expanded_dec.png');
+background-repeat: no-repeat;
+background-size: cover;
+position: absolute;
+z-index: -1;
+opacity: 0.68;
+height: 45%;
+width: 100%;
+}
+
+.box1 img:hover{
+border: 2px solid rgb(219, 109, 241);
+}
+.contact{
+/* border: 2px solid red; */
+margin-top: 255px; 
+position: relative;
+width: 100%;
+
+}
+.contact::before{
+background: url('new contact.avif') no-repeat center center/cover;
+content: "";
+height: 100%;
+width: 100%;
+z-index: -1;
+position:absolute;
+top: 0px;
+left: 0px;
+opacity: 0.75;
+}
+.h1-contact{
+padding: 10px 65px;
+margin-top: 15px;
+border: 2px solid orange;
+font-size: 2.3rem;
+border-radius: 20px;
+background-color: rgb(247 254 205);
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: black;
+
+}
+.h1-contact:hover{
+background-color: aquamarine;
+border: 2px solid blueviolet;
+}
+.contact-box{
+display:block;
+
+margin: auto;
+width: 800px;
+margin-top: 10px;
+
+}
+.submit{
+
+width: 90px;
+margin: auto;
+
+/* margin-bottom: 20px; */
+}
+
+.contact-box input{
+width: 100%;
+padding: 0.6rem;
+margin: 5px;
+border-radius: 9px;
+border: 2px solid rgb(247, 230, 246);
+}
+.contact-box input:hover{
+background-color: rgb(247, 242, 236);
+border: 2px solid orange;
+}
+.foot{
+background-color: rgb(194, 192, 192);
+height: 24px;
+width: 100vw;
+color:black;
+text-align: center;
+padding: 24px 10px;
+/* opacity: 0.21; */
+font-size: 1.5rem;
+}
+.foot:hover{
+border: 2px solid rgb(60, 52, 52);
+background-color: rgb(236, 244, 244);
+}
+.btn2{
+display: flex;
+position: absolute;
+top: 0px;
+right: 1px;
+padding: 0px 0px;
+margin: 1px 2px;
+}
+.btn2-2{
+clear: right;
+padding: 5px 24px;
+margin: 16px 6px;
+font-size: 1.2rem;
+background-color: rgb(238 118 60 / 28%);
+border-radius: 14px;
+color: azure;
+
+}
+.btn2-1{
+clear: right;
+padding: 5px 24px;
+margin: 16px 6px;
+font-size: 1.2rem;
+background-color:rgb(238 118 60 / 28%);
+border-radius: 14px;
+color: azure;
+
+}
+.btn2-2:hover{
+background-color: rgb(231, 81, 11);
+border: 2px solid white;
+color: black;
+}
+
+.btn2-1:hover{
+background-color: rgb(231, 81, 11);
+border: 2px solid white;
+color: black;
+}
